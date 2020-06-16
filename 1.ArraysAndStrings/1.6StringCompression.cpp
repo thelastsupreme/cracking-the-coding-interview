@@ -34,8 +34,7 @@ using namespace std;
 // }
 
 
-//*******************************method 2*************************************************
-
+//method 2
 int compressed_length(string s){     //function to check lemgth of compressed string
     int compressedLength=0;
     int count=0;
