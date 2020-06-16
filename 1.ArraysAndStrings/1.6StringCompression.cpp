@@ -44,7 +44,7 @@ int compressed_length(string s){     //function to check lemgth of compressed st
             stringstream ss;                //three lines of code to get length of the integer count
             ss<<count;                      //or use to_string(count).length()
             string x=ss.str();              //to_string isnt working on mingw
-            compressedLength+=x.length()+1;
+            compressedLength+=x.length()+1; //+1 cause the char will take one unit of length
             count=0;
         }
     }
